@@ -4,13 +4,13 @@ using namespace std;
 
 int main()
 {
-  float sum, x, y, i, dob, j, z;
+  float sum, x, y, n, dob, m, z;
   cout << "Input value x for Y\nz = ";
   cin >> x;
   sum = 0;
-  for (int i = 1; i < 6; i++) 
+  for (int n = 1; n < 6; n++) 
   {
-    sum += log(i);
+    sum += log(n);
   }
   y = pow(x,2) + sum;
   cout << "The evaluation results Y = " << y << endl;
@@ -18,7 +18,7 @@ int main()
   dob = 1;
   cout << "\nInput value x for Z\nx = ";
   cin >> x;
-  for (int j= 1; j<= 5; j++)
+  for (int m= 1; m<= 5; m++)
   {
     dob *= tan(i*x);
   }
@@ -27,4 +27,4 @@ int main()
   system("pause");
 	  return 0;
 
-}
+} 
