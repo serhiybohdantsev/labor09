@@ -4,9 +4,9 @@ using namespace std;
 
 int main()
 {
-  float sum, x, y, n, dob, m, z;
-  cout << "Input value x for Y\nz = ";
-  cin >> x;
+  float sum, a, y, n, dob, m, z;
+  cout << "Input value a for Y\na = ";
+  cin >> a;
   sum = 0;
   for (int n = 1; n < 6; n++) 
   {
@@ -16,13 +16,13 @@ int main()
   cout << "The evaluation results Y = " << y << endl;
 
   dob = 1;
-  cout << "\nInput value x for Z\nx = ";
-  cin >> x;
+  cout << "\nInput value x for Z\na = ";
+  cin >> a;
   for (int m= 1; m<= 5; m++)
   {
-    dob *= tan(i*x);
+    dob *= tan(i*a);
   }
-  z = dob + sqrt(x);
+  z = dob + sqrt(a);
   cout << "The evaluation results Z = " << z << endl;
   system("pause");
 	  return 0;
